@@ -9,7 +9,7 @@ logger.setLevel(logging.INFO)
 s3 = boto3.client('s3')
 
 
-def driver_lambda(event, context):
+def lambda_handler(event, context):
     bucket_name = 'test-bucket-ws-999'
 
     s3.put_object(Bucket=bucket_name, Key='assignment1.txt', Body='Empty Assignment 1')

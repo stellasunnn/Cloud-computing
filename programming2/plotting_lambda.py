@@ -11,7 +11,7 @@ s3 = boto3.client('s3')
 dynamodb = boto3.resource('dynamodb')
 
 
-def plotting_lambda(event, context):
+def lambda_handler(event, context):
     plot_key = 'plot'
 
     end_time = int(datetime.now().timestamp())

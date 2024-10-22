@@ -6,7 +6,7 @@ dynamodb = boto3.client('dynamodb')
 table_name = 'S3-object-size-history'
 
 
-def size_tracking_lambda(event, context):
+def lambda_handler(event, context):
     bucket_name = event['Records'][0]['s3']['bucket']['name']
     total_size = 0
     total_objects = 0
