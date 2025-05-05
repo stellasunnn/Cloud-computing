@@ -1,6 +1,6 @@
 # Cloud-computing
 
-This repository contains all assignments and lab work for the Cloud Computing course focused on AWS services and cloud architecture. The course progresses through fundamental AWS concepts and services, with programming assignments that build practical skills in cloud resource management and serverless application development.
+This repository contains all assignments focused on AWS services and cloud architecture, includes IAM/S3 management, Lambda functions, CDK infrastructure-as-code, SNS/SQS messaging patterns, and CloudWatch monitoring implementations.
 
 ## Project Structure
 
@@ -19,7 +19,6 @@ This repository contains all assignments and lab work for the Cloud Computing co
 4. **Programming Assignment 4 - Apply SNS/SQS and CloudWatch to Assignment 2**
    - Focus: Messaging services and monitoring
    - Skills: Asynchronous messaging patterns and observability
-   - 
 
 ## Setup Instructions
 
